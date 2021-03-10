@@ -1,0 +1,30 @@
+{
+    "name": "Wiktionary",
+    "description": "Query Wiktionary from address bar.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/w16.png",
+            "32": "/images/w32.png",
+            "48": "/images/w48.png",
+            "128": "/images/w128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/w16.png",
+        "32": "/images/w32.png",
+        "48": "/images/w48.png",
+        "128": "/images/w128.png"
+    },
+    "options_page": "options.html",
+    "omnibox": { "keyword" : "`" }
+}
