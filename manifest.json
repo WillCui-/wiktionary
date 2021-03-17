@@ -1,14 +1,13 @@
 {
-    "name": "Wiktionary",
-    "description": "Query Wiktionary from address bar.",
-    "version": "1.0",
+    "name": "Quick Search Wiktionary",
+    "description": "Provides quick access to Wiktionary from any page.",
+    "version": "1.0.0",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
     "permissions": [
-        "activeTab",
-        "scripting",
+        "contextMenus",
         "storage"
     ],
     "action": {
